@@ -12,6 +12,10 @@ topenai (terminal openai) — a simple command line interface tool to interact w
 
 [OpenAPI models](https://platform.openai.com/docs/models)
 
+To install the latest testing version (may contain more bugs), run:
+
+    pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ topenai
+
 #### Features
 
 - Multiple chat threads
@@ -35,6 +39,20 @@ Run `topenai` in your terminal
 #### Known issues
 - UUIDs of sessions instead of readable names
 - Rename is not working
+
+Developing Setup
+----------------
+
+If you want to set this package up for directly editing it's source code (for contributing):
+
+1. ***Clone the package***
+
+        git clone https://github.com/vladzima/topenai
+
+2. ***Create a dynamic link***
+    This will make the package dynamically update with your local changes:
+
+        pip install -e .
 
 #### TODO
 - Make chat history more accesible
