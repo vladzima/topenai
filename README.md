@@ -22,15 +22,15 @@ topenai (terminal openai) — a simple command line interface tool to interact w
 #### Usage:
 Run `topenai` in your terminal
 
-- Enter '/new' to start a new chat ('/n')
-- '/switch <chat_id>' to change chat ('/s')
-- '/list' to list all chats ('/l')
-- '/rename <old_id> <new_id>' to rename a chat ('/r')
-- '/delete <chat_id>' to delete a chat ('/d')
-- '/apikey' to change API key
-- '/model' to change model
-- '/help' to display this help message ('/h')
-- '/exit' to exit ('/e')
+- Enter `/new` to start a new chat (`/n`)
+- `/switch <chat_id>` to change chat (`/s`)
+- `/list` to list all chats (`/l`)
+- `/rename <old_id> <new_id>` to rename a chat (`/r`)
+- `/delete <chat_id>` to delete a chat (`/d`)
+- `/apikey` to change API key
+- `/model` to change model
+- `/help` to display this help message (`/h`)
+- `/exit` to exit (`/e`)
 
 #### Known issues
 - UUIDs of sessions instead of readable names
