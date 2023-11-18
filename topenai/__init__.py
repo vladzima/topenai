@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from typing import Dict, List, Optional
+import argparse
 import json
 import os
 import requests
@@ -271,6 +272,13 @@ Vlad Arbatov — https://github.com/vladzima/topenai
                 break
         else:
             bot.send_message(command)
+
+parser = argparse.ArgumentParser(description='Test argument parsing.')
+parser.add_argument('-test', action='store_true', help='an optional test argument')
+args = parser.parse_args()
+if args.test:
+    print('test-ok')
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
