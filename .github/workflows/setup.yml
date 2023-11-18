@@ -3,6 +3,9 @@ name: setup
 on:
   push
 
+permissions:
+  contents: write
+
 jobs:
   setup:
     if: ${{ !github.event.repository.is_template }}
