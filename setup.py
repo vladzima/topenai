@@ -14,7 +14,12 @@ setuptools.setup(
     url="https://github.com/vladzima/topenai",
     long_description=long_description,
     long_description_content_type=README_MIME,
-    packages=setuptools.find_packages(),
+    packages=['topenai'],
+     entry_points={
+        'console_scripts': [
+            'topenai=topenai:main',  # This line tells pip to create a binary named "topenai" that calls the "main" function in the "topenai" module
+        ],
+    }
     author_email="v.o.arbatov@gmail.com",
     classifiers=[
         "Programming Language :: Python",
