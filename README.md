@@ -3,6 +3,8 @@
 
 topenai (terminal openai) — a simple command line interface tool to interact with OpenAI.
 
+Work in progress so expect errors.
+
 Installation
 ----------------
 
