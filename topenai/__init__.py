@@ -212,12 +212,15 @@ def main():
     bot = OpenAIChatbot(api_key, model, chat_sessions, last_chat_id)
 
     print(Style.YELLOW + """\
-   __              __ 
-  / /_____ _____  / /_
- / __/ __ `/ __ \/ __/
-/ /_/ /_/ / /_/ / /_  
-\__/\__, / .___/\__/  
-   /____/_/           
+
+   __                               _ 
+  / /_____  ____  ___  ____  ____ _(_)
+ / __/ __ \/ __ \/ _ \/ __ \/ __ `/ / 
+/ /_/ /_/ / /_/ /  __/ / / / /_/ / /  
+\__/\____/ .___/\___/_/ /_/\__,_/_/   
+        /_/                           
+
+Vlad Arbatov — https://github.com/vladzima/topenai        
 """ + Style.RESET)
     
     print_commands()

@@ -1,0 +1,20 @@
+{
+    "chats": {
+        "1": [
+            {
+                "role": "user",
+                "content": "jrjr"
+            },
+            {
+                "role": "user",
+                "content": "hello"
+            },
+            {
+                "role": "assistant",
+                "content": "Hello! How can I assist you today?"
+            }
+        ],
+        "2": []
+    },
+    "last_chat_id": "2"
+}
