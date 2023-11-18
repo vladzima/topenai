@@ -3,7 +3,8 @@
 
 topenai (terminal openai) — a simple command line interface tool to interact with OpenAI.
 
-#### Installation
+Installation
+----------------
 
 `pip install topenai`
 
@@ -16,14 +17,16 @@ To install the latest testing version (may contain more bugs), run:
 
     pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ topenai
 
-#### Features
+Features
+----------------
 
 - Multiple chat threads
 - Chat history
 - Rename, delete and switch sessions
 
 
-#### Usage:
+Usage
+----------------
 Run `topenai` in your terminal
 
 - Enter `/new` to start a new chat (`/n`)
@@ -36,7 +39,8 @@ Run `topenai` in your terminal
 - `/help` to display this help message (`/h`)
 - `/exit` to exit (`/e`)
 
-#### Known issues
+Known issues
+----------------
 - UUIDs of sessions instead of readable names
 - Rename is not working
 
@@ -54,7 +58,8 @@ If you want to set this package up for directly editing it's source code (for co
 
         pip install -e .
 
-#### TODO
+TODO
+----------------
 - Make chat history more accesible
 - Allow OpenAI API fune-tuning parameters
 - Migrate to official OpenAI python API client
