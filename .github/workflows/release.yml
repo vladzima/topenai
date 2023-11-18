@@ -31,6 +31,7 @@ jobs:
       with:
         files: dist/*
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        permissions: write-all
         release-tag: ${{ github.event.release.tag_name }}
     - name: Publish to test-pypi
       if: env.TEST_PYPI_PASSWD != ''
