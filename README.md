@@ -14,7 +14,7 @@ topenai (terminal openai) — a simple command line interface tool to interact w
 
 #### Features
 
-- Multiple chat threds
+- Multiple chat threads
 - Chat history
 - Rename, delete and switch sessions
 
