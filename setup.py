@@ -10,7 +10,7 @@ setuptools.setup(
     name="topenai",
     version="0.0.1",
     author="vladzima",
-    description="",
+    description="CLI tool to chat with OpenAI GPT",
     url="https://github.com/vladzima/topenai",
     long_description=long_description,
     long_description_content_type=README_MIME,
