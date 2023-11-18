@@ -9,6 +9,7 @@ topenai (terminal openai) — a simple command line interface tool to interact w
 
 [How to get an OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-api-key)
 
+
 [OpenAPI models](https://platform.openai.com/docs/models)
 
 #### Features
