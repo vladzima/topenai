@@ -19,7 +19,9 @@ topenai (terminal openai) — a simple command line interface tool to interact w
 - Rename, delete and switch sessions
 
 
-#### Commands:
+#### Usage:
+Run `topenai` in your terminal
+
 - Enter '/new' to start a new chat ('/n')
 - '/switch <chat_id>' to change chat ('/s')
 - '/list' to list all chats ('/l')
