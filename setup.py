@@ -17,7 +17,7 @@ setuptools.setup(
     packages=['topenai'],
      entry_points={
         'console_scripts': [
-            'topenai=topenai:main',  # This line tells pip to create a binary named "topenai" that calls the "main" function in the "topenai" module
+            'topenai=topenai:main',
         ],
     },
     author_email="v.o.arbatov@gmail.com",
